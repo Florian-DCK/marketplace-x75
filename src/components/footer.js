@@ -1,5 +1,5 @@
-import React from 'react';
-
 export default function Footer() {
-	return <div className=" justify-end">Footer</div>;
+	return (
+		<div className="absolute bottom-0 h-14 bg-red-400 w-screen">Footer</div>
+	);
 }
